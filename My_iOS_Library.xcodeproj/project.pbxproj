@@ -10,9 +10,25 @@
 		9998E34E2EDE35FC00773293 /* My_iOS_Library.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = My_iOS_Library.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		9998E3E02EE0CDAB00773293 /* Exceptions for "My_iOS_Library" folder in "My_iOS_Library" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Library/Components/Animations/Loading/SkeletonLoader/README.md,
+				Library/Components/UI/Buttons/PrimaryButton/README.md,
+				Library/Components/UI/Cards/Card/README.md,
+				Library/Components/UI/Inputs/FloatingLabelTextField/README.md,
+			);
+			target = 9998E34D2EDE35FC00773293 /* My_iOS_Library */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		9998E3502EDE35FC00773293 /* My_iOS_Library */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				9998E3E02EE0CDAB00773293 /* Exceptions for "My_iOS_Library" folder in "My_iOS_Library" target */,
+			);
 			path = My_iOS_Library;
 			sourceTree = "<group>";
 		};
